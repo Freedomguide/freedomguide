@@ -1,0 +1,18 @@
+title: "Freedomguide – Der digitale Wandel, verständlich gemacht"
+description: "Krypto, KI und digitaler Wandel – verständlich erklärt und praxisnah."
+baseurl: ""
+url: "https://deinusername.github.io/freedomguide"  # später zu "freedomguide.de" ändern
+
+collections:
+  blog:
+    output: true
+    permalink: /blog/:year/:month/:day/:slug/
+  legal:
+    output: true
+    permalink: /legal/:name/
+  kontakt:
+    output: true
+    permalink: /kontakt/
+
+markdown: kramdown
+theme: minima  # Einfaches, klares Jekyll-Theme
